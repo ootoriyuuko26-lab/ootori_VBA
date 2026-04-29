@@ -51,5 +51,3 @@ ErrorHandler:
     WriteLog "CreateCalendar", "Error: " & Err.Number & " / " & Err.Description
     MsgBox "エラーが発生しました。ログを確認してください。", vbCritical
 End Sub
-
-Private Function BuildCalendarArray(ByVal baseDate As Date) As Variant
