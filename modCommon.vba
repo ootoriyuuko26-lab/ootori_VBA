@@ -34,5 +34,3 @@ Public Sub WriteLog(ByVal processName As String, ByVal status As String)
 End Sub
 
 '==========================================
-
-'③【残す】Config取得 + チェック 約40行=====
