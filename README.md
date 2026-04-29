@@ -1,2 +1,2 @@
-# yuuko_VBA
+# ootori_VBA
 シニアが独学で作ったもの
