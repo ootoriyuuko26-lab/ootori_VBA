@@ -1,3 +1,5 @@
+Option Explicit
+
 Private Function BuildCalendarArray(ByVal baseDate As Date) As Variant
 
     Dim lastDay As Long
@@ -23,8 +25,6 @@ End Function
 '============================================================
 
 '⑤【残す】書き込み処理 約40行=====
-Option Explicit
-
 Private Sub WriteCalendar(ByVal calMap As Variant)
 
     Dim sh As Worksheet
