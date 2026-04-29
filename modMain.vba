@@ -1,4 +1,6 @@
 Option Explicit
+
+'③【残す】Config取得 + チェック 約40行=====
 Public Function GetTargetMonth() As Date
 
     Dim sh As Worksheet
