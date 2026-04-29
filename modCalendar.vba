@@ -1,3 +1,5 @@
+Private Function BuildCalendarArray(ByVal baseDate As Date) As Variant
+
     Dim lastDay As Long
     Dim d As Long
     Dim result(1 To 6, 1 To 7) As Variant
