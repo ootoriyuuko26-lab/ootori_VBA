@@ -4,8 +4,8 @@ Private Function BuildCalendarArray(ByVal baseDate As Date) As Variant
 
     Dim lastDay As Long
     Dim d As Long
-    'Dim result(1 To 6, 1 To 7) As Variant   ' ← 行列が逆で Weekday の戻り値と不整合を修正 2026/05/15
-    Dim result(1 To 7, 1 To 6) As Variant
+    'Dim result(1 To 6, 1 To 7) As Variant   
+    Dim result(1 To 7, 1 To 6) As Variant　' ← 配列設定が逆なのを修正 2026/05/15
 
 
     ' 月の最終日を取得
