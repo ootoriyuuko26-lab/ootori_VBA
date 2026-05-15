@@ -19,3 +19,6 @@
 ## 開発環境
 * OS: Windows 11
 * Excel: Microsoft 365 (VBA)
+
+## 修正履歴
+* 2026/05/15  modCalendar.vba　Dim result(1 To 7, 1 To 6) As Variant　に修正。
