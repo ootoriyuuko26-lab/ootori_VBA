@@ -4,7 +4,9 @@ Private Function BuildCalendarArray(ByVal baseDate As Date) As Variant
 
     Dim lastDay As Long
     Dim d As Long
-    Dim result(1 To 6, 1 To 7) As Variant
+    'Dim result(1 To 6, 1 To 7) As Variant   ' ← 行列が逆で Weekday の戻り値と不整合
+    Dim result(1 To 7, 1 To 6) As Variant
+
 
     ' 月の最終日を取得
     lastDay = Day(DateSerial(Year(baseDate), Month(baseDate) + 1, 0))
